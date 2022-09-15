@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    double num1;
+    double num2;
+    int num3;
+    printf("Enter a firstnumber:");
+    scanf("%lf",&num1);
+    printf("Enter a secondnumber:");
+    scanf("%lf",&num2);
+    printf("Enter a thirdnumber:");
+    scanf("%d",&num3);
+    printf("My lucky number is %d \n",num3);
+    printf("Output:%f",num1+num2);
+    return 0;
+}
+   
+
